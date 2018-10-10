@@ -12,9 +12,6 @@
 #include "tensor.h"
 #include "tensor.cpp"
 #include "cp_als.cpp"
-#include "cpals.cpp"
-#include "tsvd.cpp"
-#include "HOSVD.cpp"
 #include "tucker_hosvd.cpp"
 
 
