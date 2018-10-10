@@ -1,3 +1,11 @@
+# Environment requirement
+1. cmake version 3.12 or greater
+2. matrix library: Armadillo 
+http://arma.sourceforge.net/
+
+
+
+
 # Transform-based-Tensor-Model
 A C++ library for transform-based tensor model
 
