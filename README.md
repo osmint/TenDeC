@@ -1,6 +1,7 @@
 # Environment requirement
 1. cmake version 3.12 or greater  
-2. matrix library: Armadillo http://arma.sourceforge.net/  
+2. Basic matrix library: Armadillo  
+http://arma.sourceforge.net/  
 3. Intel Math Kernel Library (mkl) https://software.intel.com/en-us/mkl  
 4. Fastest Fourier Transform in the West (FFTW) http://www.fftw.org/  
 (Optional) OpenMP 
