@@ -48,10 +48,10 @@ RM = /home/jcfei/opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jcfei/Desktop/TensorLet_C
+CMAKE_SOURCE_DIR = /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jcfei/Desktop/TensorLet_C/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles /home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,275 +123,275 @@ tensor/fast:
 	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/build
 .PHONY : tensor/fast
 
-Tensor3D.o: Tensor3D.cpp.o
+src/Tensor3D.o: src/Tensor3D.cpp.o
 
-.PHONY : Tensor3D.o
-
-# target to build an object file
-Tensor3D.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/Tensor3D.cpp.o
-.PHONY : Tensor3D.cpp.o
-
-Tensor3D.i: Tensor3D.cpp.i
-
-.PHONY : Tensor3D.i
-
-# target to preprocess a source file
-Tensor3D.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/Tensor3D.cpp.i
-.PHONY : Tensor3D.cpp.i
-
-Tensor3D.s: Tensor3D.cpp.s
-
-.PHONY : Tensor3D.s
-
-# target to generate assembly for a file
-Tensor3D.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/Tensor3D.cpp.s
-.PHONY : Tensor3D.cpp.s
-
-cpd_als.o: cpd_als.cpp.o
-
-.PHONY : cpd_als.o
+.PHONY : src/Tensor3D.o
 
 # target to build an object file
-cpd_als.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_als.cpp.o
-.PHONY : cpd_als.cpp.o
+src/Tensor3D.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/Tensor3D.cpp.o
+.PHONY : src/Tensor3D.cpp.o
 
-cpd_als.i: cpd_als.cpp.i
+src/Tensor3D.i: src/Tensor3D.cpp.i
 
-.PHONY : cpd_als.i
+.PHONY : src/Tensor3D.i
 
 # target to preprocess a source file
-cpd_als.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_als.cpp.i
-.PHONY : cpd_als.cpp.i
+src/Tensor3D.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/Tensor3D.cpp.i
+.PHONY : src/Tensor3D.cpp.i
 
-cpd_als.s: cpd_als.cpp.s
+src/Tensor3D.s: src/Tensor3D.cpp.s
 
-.PHONY : cpd_als.s
+.PHONY : src/Tensor3D.s
 
 # target to generate assembly for a file
-cpd_als.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_als.cpp.s
-.PHONY : cpd_als.cpp.s
+src/Tensor3D.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/Tensor3D.cpp.s
+.PHONY : src/Tensor3D.cpp.s
 
-cpd_gen.o: cpd_gen.cpp.o
+src/cpd_als.o: src/cpd_als.cpp.o
 
-.PHONY : cpd_gen.o
+.PHONY : src/cpd_als.o
 
 # target to build an object file
-cpd_gen.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_gen.cpp.o
-.PHONY : cpd_gen.cpp.o
+src/cpd_als.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_als.cpp.o
+.PHONY : src/cpd_als.cpp.o
 
-cpd_gen.i: cpd_gen.cpp.i
+src/cpd_als.i: src/cpd_als.cpp.i
 
-.PHONY : cpd_gen.i
+.PHONY : src/cpd_als.i
 
 # target to preprocess a source file
-cpd_gen.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_gen.cpp.i
-.PHONY : cpd_gen.cpp.i
+src/cpd_als.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_als.cpp.i
+.PHONY : src/cpd_als.cpp.i
 
-cpd_gen.s: cpd_gen.cpp.s
+src/cpd_als.s: src/cpd_als.cpp.s
 
-.PHONY : cpd_gen.s
+.PHONY : src/cpd_als.s
 
 # target to generate assembly for a file
-cpd_gen.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/cpd_gen.cpp.s
-.PHONY : cpd_gen.cpp.s
+src/cpd_als.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_als.cpp.s
+.PHONY : src/cpd_als.cpp.s
 
-main.o: main.cpp.o
+src/cpd_gen.o: src/cpd_gen.cpp.o
 
-.PHONY : main.o
+.PHONY : src/cpd_gen.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/cpd_gen.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_gen.cpp.o
+.PHONY : src/cpd_gen.cpp.o
 
-main.i: main.cpp.i
+src/cpd_gen.i: src/cpd_gen.cpp.i
 
-.PHONY : main.i
+.PHONY : src/cpd_gen.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/cpd_gen.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_gen.cpp.i
+.PHONY : src/cpd_gen.cpp.i
 
-main.s: main.cpp.s
+src/cpd_gen.s: src/cpd_gen.cpp.s
 
-.PHONY : main.s
+.PHONY : src/cpd_gen.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/cpd_gen.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/cpd_gen.cpp.s
+.PHONY : src/cpd_gen.cpp.s
 
-mode_n_product.o: mode_n_product.cpp.o
+src/main.o: src/main.cpp.o
 
-.PHONY : mode_n_product.o
+.PHONY : src/main.o
 
 # target to build an object file
-mode_n_product.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/mode_n_product.cpp.o
-.PHONY : mode_n_product.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-mode_n_product.i: mode_n_product.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : mode_n_product.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-mode_n_product.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/mode_n_product.cpp.i
-.PHONY : mode_n_product.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-mode_n_product.s: mode_n_product.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : mode_n_product.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-mode_n_product.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/mode_n_product.cpp.s
-.PHONY : mode_n_product.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-pinv.o: pinv.cpp.o
+src/mode_n_product.o: src/mode_n_product.cpp.o
 
-.PHONY : pinv.o
+.PHONY : src/mode_n_product.o
 
 # target to build an object file
-pinv.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/pinv.cpp.o
-.PHONY : pinv.cpp.o
+src/mode_n_product.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/mode_n_product.cpp.o
+.PHONY : src/mode_n_product.cpp.o
 
-pinv.i: pinv.cpp.i
+src/mode_n_product.i: src/mode_n_product.cpp.i
 
-.PHONY : pinv.i
+.PHONY : src/mode_n_product.i
 
 # target to preprocess a source file
-pinv.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/pinv.cpp.i
-.PHONY : pinv.cpp.i
+src/mode_n_product.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/mode_n_product.cpp.i
+.PHONY : src/mode_n_product.cpp.i
 
-pinv.s: pinv.cpp.s
+src/mode_n_product.s: src/mode_n_product.cpp.s
 
-.PHONY : pinv.s
+.PHONY : src/mode_n_product.s
 
 # target to generate assembly for a file
-pinv.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/pinv.cpp.s
-.PHONY : pinv.cpp.s
+src/mode_n_product.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/mode_n_product.cpp.s
+.PHONY : src/mode_n_product.cpp.s
 
-t_svd.o: t_svd.cpp.o
+src/pinv.o: src/pinv.cpp.o
 
-.PHONY : t_svd.o
+.PHONY : src/pinv.o
 
 # target to build an object file
-t_svd.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/t_svd.cpp.o
-.PHONY : t_svd.cpp.o
+src/pinv.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/pinv.cpp.o
+.PHONY : src/pinv.cpp.o
 
-t_svd.i: t_svd.cpp.i
+src/pinv.i: src/pinv.cpp.i
 
-.PHONY : t_svd.i
+.PHONY : src/pinv.i
 
 # target to preprocess a source file
-t_svd.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/t_svd.cpp.i
-.PHONY : t_svd.cpp.i
+src/pinv.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/pinv.cpp.i
+.PHONY : src/pinv.cpp.i
 
-t_svd.s: t_svd.cpp.s
+src/pinv.s: src/pinv.cpp.s
 
-.PHONY : t_svd.s
+.PHONY : src/pinv.s
 
 # target to generate assembly for a file
-t_svd.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/t_svd.cpp.s
-.PHONY : t_svd.cpp.s
+src/pinv.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/pinv.cpp.s
+.PHONY : src/pinv.cpp.s
 
-tensor_hooi.o: tensor_hooi.cpp.o
+src/t_svd.o: src/t_svd.cpp.o
 
-.PHONY : tensor_hooi.o
+.PHONY : src/t_svd.o
 
 # target to build an object file
-tensor_hooi.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_hooi.cpp.o
-.PHONY : tensor_hooi.cpp.o
+src/t_svd.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/t_svd.cpp.o
+.PHONY : src/t_svd.cpp.o
 
-tensor_hooi.i: tensor_hooi.cpp.i
+src/t_svd.i: src/t_svd.cpp.i
 
-.PHONY : tensor_hooi.i
+.PHONY : src/t_svd.i
 
 # target to preprocess a source file
-tensor_hooi.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_hooi.cpp.i
-.PHONY : tensor_hooi.cpp.i
+src/t_svd.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/t_svd.cpp.i
+.PHONY : src/t_svd.cpp.i
 
-tensor_hooi.s: tensor_hooi.cpp.s
+src/t_svd.s: src/t_svd.cpp.s
 
-.PHONY : tensor_hooi.s
+.PHONY : src/t_svd.s
 
 # target to generate assembly for a file
-tensor_hooi.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_hooi.cpp.s
-.PHONY : tensor_hooi.cpp.s
+src/t_svd.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/t_svd.cpp.s
+.PHONY : src/t_svd.cpp.s
 
-tensor_train.o: tensor_train.cpp.o
+src/tensor_hooi.o: src/tensor_hooi.cpp.o
 
-.PHONY : tensor_train.o
+.PHONY : src/tensor_hooi.o
 
 # target to build an object file
-tensor_train.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_train.cpp.o
-.PHONY : tensor_train.cpp.o
+src/tensor_hooi.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o
+.PHONY : src/tensor_hooi.cpp.o
 
-tensor_train.i: tensor_train.cpp.i
+src/tensor_hooi.i: src/tensor_hooi.cpp.i
 
-.PHONY : tensor_train.i
+.PHONY : src/tensor_hooi.i
 
 # target to preprocess a source file
-tensor_train.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_train.cpp.i
-.PHONY : tensor_train.cpp.i
+src/tensor_hooi.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_hooi.cpp.i
+.PHONY : src/tensor_hooi.cpp.i
 
-tensor_train.s: tensor_train.cpp.s
+src/tensor_hooi.s: src/tensor_hooi.cpp.s
 
-.PHONY : tensor_train.s
+.PHONY : src/tensor_hooi.s
 
 # target to generate assembly for a file
-tensor_train.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tensor_train.cpp.s
-.PHONY : tensor_train.cpp.s
+src/tensor_hooi.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_hooi.cpp.s
+.PHONY : src/tensor_hooi.cpp.s
 
-tucker_hosvd.o: tucker_hosvd.cpp.o
+src/tensor_train.o: src/tensor_train.cpp.o
 
-.PHONY : tucker_hosvd.o
+.PHONY : src/tensor_train.o
 
 # target to build an object file
-tucker_hosvd.cpp.o:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tucker_hosvd.cpp.o
-.PHONY : tucker_hosvd.cpp.o
+src/tensor_train.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_train.cpp.o
+.PHONY : src/tensor_train.cpp.o
 
-tucker_hosvd.i: tucker_hosvd.cpp.i
+src/tensor_train.i: src/tensor_train.cpp.i
 
-.PHONY : tucker_hosvd.i
+.PHONY : src/tensor_train.i
 
 # target to preprocess a source file
-tucker_hosvd.cpp.i:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tucker_hosvd.cpp.i
-.PHONY : tucker_hosvd.cpp.i
+src/tensor_train.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_train.cpp.i
+.PHONY : src/tensor_train.cpp.i
 
-tucker_hosvd.s: tucker_hosvd.cpp.s
+src/tensor_train.s: src/tensor_train.cpp.s
 
-.PHONY : tucker_hosvd.s
+.PHONY : src/tensor_train.s
 
 # target to generate assembly for a file
-tucker_hosvd.cpp.s:
-	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/tucker_hosvd.cpp.s
-.PHONY : tucker_hosvd.cpp.s
+src/tensor_train.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tensor_train.cpp.s
+.PHONY : src/tensor_train.cpp.s
+
+src/tucker_hosvd.o: src/tucker_hosvd.cpp.o
+
+.PHONY : src/tucker_hosvd.o
+
+# target to build an object file
+src/tucker_hosvd.cpp.o:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o
+.PHONY : src/tucker_hosvd.cpp.o
+
+src/tucker_hosvd.i: src/tucker_hosvd.cpp.i
+
+.PHONY : src/tucker_hosvd.i
+
+# target to preprocess a source file
+src/tucker_hosvd.cpp.i:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.i
+.PHONY : src/tucker_hosvd.cpp.i
+
+src/tucker_hosvd.s: src/tucker_hosvd.cpp.s
+
+.PHONY : src/tucker_hosvd.s
+
+# target to generate assembly for a file
+src/tucker_hosvd.cpp.s:
+	$(MAKE) -f CMakeFiles/tensor.dir/build.make CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.s
+.PHONY : src/tucker_hosvd.cpp.s
 
 # Help Target
 help:
@@ -402,36 +402,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tensor"
 	@echo "... edit_cache"
-	@echo "... Tensor3D.o"
-	@echo "... Tensor3D.i"
-	@echo "... Tensor3D.s"
-	@echo "... cpd_als.o"
-	@echo "... cpd_als.i"
-	@echo "... cpd_als.s"
-	@echo "... cpd_gen.o"
-	@echo "... cpd_gen.i"
-	@echo "... cpd_gen.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mode_n_product.o"
-	@echo "... mode_n_product.i"
-	@echo "... mode_n_product.s"
-	@echo "... pinv.o"
-	@echo "... pinv.i"
-	@echo "... pinv.s"
-	@echo "... t_svd.o"
-	@echo "... t_svd.i"
-	@echo "... t_svd.s"
-	@echo "... tensor_hooi.o"
-	@echo "... tensor_hooi.i"
-	@echo "... tensor_hooi.s"
-	@echo "... tensor_train.o"
-	@echo "... tensor_train.i"
-	@echo "... tensor_train.s"
-	@echo "... tucker_hosvd.o"
-	@echo "... tucker_hosvd.i"
-	@echo "... tucker_hosvd.s"
+	@echo "... src/Tensor3D.o"
+	@echo "... src/Tensor3D.i"
+	@echo "... src/Tensor3D.s"
+	@echo "... src/cpd_als.o"
+	@echo "... src/cpd_als.i"
+	@echo "... src/cpd_als.s"
+	@echo "... src/cpd_gen.o"
+	@echo "... src/cpd_gen.i"
+	@echo "... src/cpd_gen.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/mode_n_product.o"
+	@echo "... src/mode_n_product.i"
+	@echo "... src/mode_n_product.s"
+	@echo "... src/pinv.o"
+	@echo "... src/pinv.i"
+	@echo "... src/pinv.s"
+	@echo "... src/t_svd.o"
+	@echo "... src/t_svd.i"
+	@echo "... src/t_svd.s"
+	@echo "... src/tensor_hooi.o"
+	@echo "... src/tensor_hooi.i"
+	@echo "... src/tensor_hooi.s"
+	@echo "... src/tensor_train.o"
+	@echo "... src/tensor_train.i"
+	@echo "... src/tensor_train.s"
+	@echo "... src/tucker_hosvd.o"
+	@echo "... src/tucker_hosvd.i"
+	@echo "... src/tucker_hosvd.s"
 .PHONY : help
 
 

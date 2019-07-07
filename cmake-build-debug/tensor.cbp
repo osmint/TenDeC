@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug"/>
+				<Option working_dir="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug"/>
+				<Option working_dir="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tensor">
-				<Option output="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/tensor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug"/>
+				<Option output="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/tensor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/jcfei/Desktop/TensorLet_C/."/>
+					<Add directory="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/./include"/>
 					<Add directory="/opt/intel/mkl/include"/>
 					<Add directory="/usr/local/fftw/include"/>
 					<Add directory="/usr/include/c++/5"/>
@@ -47,20 +47,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 tensor"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 tensor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tensor/fast">
-				<Option output="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/tensor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug"/>
+				<Option output="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/tensor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/jcfei/Desktop/TensorLet_C/."/>
+					<Add directory="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/./include"/>
 					<Add directory="/opt/intel/mkl/include"/>
 					<Add directory="/usr/local/fftw/include"/>
 					<Add directory="/usr/include/c++/5"/>
@@ -73,72 +73,54 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 tensor/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 tensor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jcfei/Desktop/TensorLet_C/cmake-build-debug"/>
+				<Option working_dir="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/Tensor3D.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/Tensor3D.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/Tensor3D.h">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_als.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/cpd.h">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_gen.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/cpd_als.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/main.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/cpd_gen.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/mode_n_product.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/main.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/pinv.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/mode_n_product.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/t_svd.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/pinv.cpp">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_hooi.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/pinv.h">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_train.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/runningtime.h">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tucker_hosvd.cpp">
 			<Option target="tensor"/>
 		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/t_svd.cpp">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/tensor.h">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/tensor_hooi.cpp">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/tensor_train.cpp">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/tensor_train.h">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/tucker_hosvd.cpp">
-			<Option target="tensor"/>
-		</Unit>
-		<Unit filename="/home/jcfei/Desktop/TensorLet_C/CMakeLists.txt">
+		<Unit filename="/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

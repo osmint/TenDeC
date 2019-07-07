@@ -3,7 +3,7 @@ project(tensor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
+include_directories(./include)
 
 include_directories(/opt/intel/mkl/include)
 link_directories(/opt/intel/mkl/lib/intel64)
@@ -32,6 +32,6 @@ endif()
 
 
 add_executable(tensor
-        main.cpp
-        tensor_hooi.cpp
-        cpd.h cpd_als.cpp t_svd.cpp tucker_hosvd.cpp cpd_gen.cpp tensor.h runningtime.h Tensor3D.h Tensor3D.cpp tensor_train.cpp mode_n_product.cpp pinv.cpp pinv.h)
+        src/main.cpp
+        src/tensor_hooi.cpp
+        src/cpd_als.cpp src/t_svd.cpp src/tucker_hosvd.cpp src/cpd_gen.cpp src/Tensor3D.cpp src/tensor_train.cpp src/mode_n_product.cpp src/pinv.cpp)

@@ -43,10 +43,10 @@ RM = /home/jcfei/opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jcfei/Desktop/TensorLet_C
+CMAKE_SOURCE_DIR = /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jcfei/Desktop/TensorLet_C/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tensor.dir/depend.make
@@ -57,165 +57,165 @@ include CMakeFiles/tensor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tensor.dir/flags.make
 
-CMakeFiles/tensor.dir/main.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tensor.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/main.cpp.o -c /home/jcfei/Desktop/TensorLet_C/main.cpp
+CMakeFiles/tensor.dir/src/main.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tensor.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/main.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/main.cpp
 
-CMakeFiles/tensor.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/main.cpp > CMakeFiles/tensor.dir/main.cpp.i
+CMakeFiles/tensor.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/main.cpp > CMakeFiles/tensor.dir/src/main.cpp.i
 
-CMakeFiles/tensor.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/main.cpp -o CMakeFiles/tensor.dir/main.cpp.s
+CMakeFiles/tensor.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/main.cpp -o CMakeFiles/tensor.dir/src/main.cpp.s
 
-CMakeFiles/tensor.dir/tensor_hooi.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/tensor_hooi.cpp.o: ../tensor_hooi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor.dir/tensor_hooi.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/tensor_hooi.cpp.o -c /home/jcfei/Desktop/TensorLet_C/tensor_hooi.cpp
+CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o: ../src/tensor_hooi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_hooi.cpp
 
-CMakeFiles/tensor.dir/tensor_hooi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/tensor_hooi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/tensor_hooi.cpp > CMakeFiles/tensor.dir/tensor_hooi.cpp.i
+CMakeFiles/tensor.dir/src/tensor_hooi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/tensor_hooi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_hooi.cpp > CMakeFiles/tensor.dir/src/tensor_hooi.cpp.i
 
-CMakeFiles/tensor.dir/tensor_hooi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/tensor_hooi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/tensor_hooi.cpp -o CMakeFiles/tensor.dir/tensor_hooi.cpp.s
+CMakeFiles/tensor.dir/src/tensor_hooi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/tensor_hooi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_hooi.cpp -o CMakeFiles/tensor.dir/src/tensor_hooi.cpp.s
 
-CMakeFiles/tensor.dir/cpd_als.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/cpd_als.cpp.o: ../cpd_als.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor.dir/cpd_als.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/cpd_als.cpp.o -c /home/jcfei/Desktop/TensorLet_C/cpd_als.cpp
+CMakeFiles/tensor.dir/src/cpd_als.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/cpd_als.cpp.o: ../src/cpd_als.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tensor.dir/src/cpd_als.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/cpd_als.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_als.cpp
 
-CMakeFiles/tensor.dir/cpd_als.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/cpd_als.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/cpd_als.cpp > CMakeFiles/tensor.dir/cpd_als.cpp.i
+CMakeFiles/tensor.dir/src/cpd_als.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/cpd_als.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_als.cpp > CMakeFiles/tensor.dir/src/cpd_als.cpp.i
 
-CMakeFiles/tensor.dir/cpd_als.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/cpd_als.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/cpd_als.cpp -o CMakeFiles/tensor.dir/cpd_als.cpp.s
+CMakeFiles/tensor.dir/src/cpd_als.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/cpd_als.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_als.cpp -o CMakeFiles/tensor.dir/src/cpd_als.cpp.s
 
-CMakeFiles/tensor.dir/t_svd.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/t_svd.cpp.o: ../t_svd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tensor.dir/t_svd.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/t_svd.cpp.o -c /home/jcfei/Desktop/TensorLet_C/t_svd.cpp
+CMakeFiles/tensor.dir/src/t_svd.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/t_svd.cpp.o: ../src/t_svd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tensor.dir/src/t_svd.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/t_svd.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/t_svd.cpp
 
-CMakeFiles/tensor.dir/t_svd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/t_svd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/t_svd.cpp > CMakeFiles/tensor.dir/t_svd.cpp.i
+CMakeFiles/tensor.dir/src/t_svd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/t_svd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/t_svd.cpp > CMakeFiles/tensor.dir/src/t_svd.cpp.i
 
-CMakeFiles/tensor.dir/t_svd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/t_svd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/t_svd.cpp -o CMakeFiles/tensor.dir/t_svd.cpp.s
+CMakeFiles/tensor.dir/src/t_svd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/t_svd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/t_svd.cpp -o CMakeFiles/tensor.dir/src/t_svd.cpp.s
 
-CMakeFiles/tensor.dir/tucker_hosvd.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/tucker_hosvd.cpp.o: ../tucker_hosvd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tensor.dir/tucker_hosvd.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/tucker_hosvd.cpp.o -c /home/jcfei/Desktop/TensorLet_C/tucker_hosvd.cpp
+CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o: ../src/tucker_hosvd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tucker_hosvd.cpp
 
-CMakeFiles/tensor.dir/tucker_hosvd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/tucker_hosvd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/tucker_hosvd.cpp > CMakeFiles/tensor.dir/tucker_hosvd.cpp.i
+CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tucker_hosvd.cpp > CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.i
 
-CMakeFiles/tensor.dir/tucker_hosvd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/tucker_hosvd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/tucker_hosvd.cpp -o CMakeFiles/tensor.dir/tucker_hosvd.cpp.s
+CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tucker_hosvd.cpp -o CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.s
 
-CMakeFiles/tensor.dir/cpd_gen.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/cpd_gen.cpp.o: ../cpd_gen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tensor.dir/cpd_gen.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/cpd_gen.cpp.o -c /home/jcfei/Desktop/TensorLet_C/cpd_gen.cpp
+CMakeFiles/tensor.dir/src/cpd_gen.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/cpd_gen.cpp.o: ../src/cpd_gen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tensor.dir/src/cpd_gen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/cpd_gen.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_gen.cpp
 
-CMakeFiles/tensor.dir/cpd_gen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/cpd_gen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/cpd_gen.cpp > CMakeFiles/tensor.dir/cpd_gen.cpp.i
+CMakeFiles/tensor.dir/src/cpd_gen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/cpd_gen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_gen.cpp > CMakeFiles/tensor.dir/src/cpd_gen.cpp.i
 
-CMakeFiles/tensor.dir/cpd_gen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/cpd_gen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/cpd_gen.cpp -o CMakeFiles/tensor.dir/cpd_gen.cpp.s
+CMakeFiles/tensor.dir/src/cpd_gen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/cpd_gen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/cpd_gen.cpp -o CMakeFiles/tensor.dir/src/cpd_gen.cpp.s
 
-CMakeFiles/tensor.dir/Tensor3D.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/Tensor3D.cpp.o: ../Tensor3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tensor.dir/Tensor3D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/Tensor3D.cpp.o -c /home/jcfei/Desktop/TensorLet_C/Tensor3D.cpp
+CMakeFiles/tensor.dir/src/Tensor3D.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/Tensor3D.cpp.o: ../src/Tensor3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tensor.dir/src/Tensor3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/Tensor3D.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/Tensor3D.cpp
 
-CMakeFiles/tensor.dir/Tensor3D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/Tensor3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/Tensor3D.cpp > CMakeFiles/tensor.dir/Tensor3D.cpp.i
+CMakeFiles/tensor.dir/src/Tensor3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/Tensor3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/Tensor3D.cpp > CMakeFiles/tensor.dir/src/Tensor3D.cpp.i
 
-CMakeFiles/tensor.dir/Tensor3D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/Tensor3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/Tensor3D.cpp -o CMakeFiles/tensor.dir/Tensor3D.cpp.s
+CMakeFiles/tensor.dir/src/Tensor3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/Tensor3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/Tensor3D.cpp -o CMakeFiles/tensor.dir/src/Tensor3D.cpp.s
 
-CMakeFiles/tensor.dir/tensor_train.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/tensor_train.cpp.o: ../tensor_train.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tensor.dir/tensor_train.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/tensor_train.cpp.o -c /home/jcfei/Desktop/TensorLet_C/tensor_train.cpp
+CMakeFiles/tensor.dir/src/tensor_train.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/tensor_train.cpp.o: ../src/tensor_train.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tensor.dir/src/tensor_train.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/tensor_train.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_train.cpp
 
-CMakeFiles/tensor.dir/tensor_train.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/tensor_train.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/tensor_train.cpp > CMakeFiles/tensor.dir/tensor_train.cpp.i
+CMakeFiles/tensor.dir/src/tensor_train.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/tensor_train.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_train.cpp > CMakeFiles/tensor.dir/src/tensor_train.cpp.i
 
-CMakeFiles/tensor.dir/tensor_train.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/tensor_train.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/tensor_train.cpp -o CMakeFiles/tensor.dir/tensor_train.cpp.s
+CMakeFiles/tensor.dir/src/tensor_train.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/tensor_train.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/tensor_train.cpp -o CMakeFiles/tensor.dir/src/tensor_train.cpp.s
 
-CMakeFiles/tensor.dir/mode_n_product.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/mode_n_product.cpp.o: ../mode_n_product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tensor.dir/mode_n_product.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/mode_n_product.cpp.o -c /home/jcfei/Desktop/TensorLet_C/mode_n_product.cpp
+CMakeFiles/tensor.dir/src/mode_n_product.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/mode_n_product.cpp.o: ../src/mode_n_product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tensor.dir/src/mode_n_product.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/mode_n_product.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/mode_n_product.cpp
 
-CMakeFiles/tensor.dir/mode_n_product.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/mode_n_product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/mode_n_product.cpp > CMakeFiles/tensor.dir/mode_n_product.cpp.i
+CMakeFiles/tensor.dir/src/mode_n_product.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/mode_n_product.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/mode_n_product.cpp > CMakeFiles/tensor.dir/src/mode_n_product.cpp.i
 
-CMakeFiles/tensor.dir/mode_n_product.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/mode_n_product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/mode_n_product.cpp -o CMakeFiles/tensor.dir/mode_n_product.cpp.s
+CMakeFiles/tensor.dir/src/mode_n_product.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/mode_n_product.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/mode_n_product.cpp -o CMakeFiles/tensor.dir/src/mode_n_product.cpp.s
 
-CMakeFiles/tensor.dir/pinv.cpp.o: CMakeFiles/tensor.dir/flags.make
-CMakeFiles/tensor.dir/pinv.cpp.o: ../pinv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tensor.dir/pinv.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/pinv.cpp.o -c /home/jcfei/Desktop/TensorLet_C/pinv.cpp
+CMakeFiles/tensor.dir/src/pinv.cpp.o: CMakeFiles/tensor.dir/flags.make
+CMakeFiles/tensor.dir/src/pinv.cpp.o: ../src/pinv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tensor.dir/src/pinv.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tensor.dir/src/pinv.cpp.o -c /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/pinv.cpp
 
-CMakeFiles/tensor.dir/pinv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/pinv.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/TensorLet_C/pinv.cpp > CMakeFiles/tensor.dir/pinv.cpp.i
+CMakeFiles/tensor.dir/src/pinv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tensor.dir/src/pinv.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/pinv.cpp > CMakeFiles/tensor.dir/src/pinv.cpp.i
 
-CMakeFiles/tensor.dir/pinv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/pinv.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/TensorLet_C/pinv.cpp -o CMakeFiles/tensor.dir/pinv.cpp.s
+CMakeFiles/tensor.dir/src/pinv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tensor.dir/src/pinv.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/src/pinv.cpp -o CMakeFiles/tensor.dir/src/pinv.cpp.s
 
 # Object files for target tensor
 tensor_OBJECTS = \
-"CMakeFiles/tensor.dir/main.cpp.o" \
-"CMakeFiles/tensor.dir/tensor_hooi.cpp.o" \
-"CMakeFiles/tensor.dir/cpd_als.cpp.o" \
-"CMakeFiles/tensor.dir/t_svd.cpp.o" \
-"CMakeFiles/tensor.dir/tucker_hosvd.cpp.o" \
-"CMakeFiles/tensor.dir/cpd_gen.cpp.o" \
-"CMakeFiles/tensor.dir/Tensor3D.cpp.o" \
-"CMakeFiles/tensor.dir/tensor_train.cpp.o" \
-"CMakeFiles/tensor.dir/mode_n_product.cpp.o" \
-"CMakeFiles/tensor.dir/pinv.cpp.o"
+"CMakeFiles/tensor.dir/src/main.cpp.o" \
+"CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o" \
+"CMakeFiles/tensor.dir/src/cpd_als.cpp.o" \
+"CMakeFiles/tensor.dir/src/t_svd.cpp.o" \
+"CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o" \
+"CMakeFiles/tensor.dir/src/cpd_gen.cpp.o" \
+"CMakeFiles/tensor.dir/src/Tensor3D.cpp.o" \
+"CMakeFiles/tensor.dir/src/tensor_train.cpp.o" \
+"CMakeFiles/tensor.dir/src/mode_n_product.cpp.o" \
+"CMakeFiles/tensor.dir/src/pinv.cpp.o"
 
 # External object files for target tensor
 tensor_EXTERNAL_OBJECTS =
 
-tensor: CMakeFiles/tensor.dir/main.cpp.o
-tensor: CMakeFiles/tensor.dir/tensor_hooi.cpp.o
-tensor: CMakeFiles/tensor.dir/cpd_als.cpp.o
-tensor: CMakeFiles/tensor.dir/t_svd.cpp.o
-tensor: CMakeFiles/tensor.dir/tucker_hosvd.cpp.o
-tensor: CMakeFiles/tensor.dir/cpd_gen.cpp.o
-tensor: CMakeFiles/tensor.dir/Tensor3D.cpp.o
-tensor: CMakeFiles/tensor.dir/tensor_train.cpp.o
-tensor: CMakeFiles/tensor.dir/mode_n_product.cpp.o
-tensor: CMakeFiles/tensor.dir/pinv.cpp.o
+tensor: CMakeFiles/tensor.dir/src/main.cpp.o
+tensor: CMakeFiles/tensor.dir/src/tensor_hooi.cpp.o
+tensor: CMakeFiles/tensor.dir/src/cpd_als.cpp.o
+tensor: CMakeFiles/tensor.dir/src/t_svd.cpp.o
+tensor: CMakeFiles/tensor.dir/src/tucker_hosvd.cpp.o
+tensor: CMakeFiles/tensor.dir/src/cpd_gen.cpp.o
+tensor: CMakeFiles/tensor.dir/src/Tensor3D.cpp.o
+tensor: CMakeFiles/tensor.dir/src/tensor_train.cpp.o
+tensor: CMakeFiles/tensor.dir/src/mode_n_product.cpp.o
+tensor: CMakeFiles/tensor.dir/src/pinv.cpp.o
 tensor: CMakeFiles/tensor.dir/build.make
 tensor: CMakeFiles/tensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tensor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -228,6 +228,6 @@ CMakeFiles/tensor.dir/clean:
 .PHONY : CMakeFiles/tensor.dir/clean
 
 CMakeFiles/tensor.dir/depend:
-	cd /home/jcfei/Desktop/TensorLet_C/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcfei/Desktop/TensorLet_C /home/jcfei/Desktop/TensorLet_C /home/jcfei/Desktop/TensorLet_C/cmake-build-debug /home/jcfei/Desktop/TensorLet_C/cmake-build-debug /home/jcfei/Desktop/TensorLet_C/cmake-build-debug/CMakeFiles/tensor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug /home/jcfei/Desktop/tensor_let/Transform-based-Tensor-Model/cmake-build-debug/CMakeFiles/tensor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tensor.dir/depend
 
