@@ -1,5 +1,5 @@
 ## TenDeC++: Tensor Decomposition Library in C++
-HUANG
+
 
 #### In TenDeC++, we implement four popular tensor decomposition methods, CANDECOMP/PARAFAC (CP) decomposition, Tucker decomposition, t-SVD, and Tensor-Train (TT) decomposition.  
 
